@@ -442,7 +442,7 @@ def clean_ui_and_send_menu(chat_id, user_id, text=None, markup=None):
                 pass
         
         caption = "╔══════════════════╗\n" \
-                  "    🥂 <b>UR OTP SHOP</b> 🥂    \n" \
+                  "    🥂 <b>ERYX OTP SHOP</b> 🥂    \n" \
                   "╚══════════════════╝\n\n" \
                   "<blockquote><b>✨ Features:</b>\n" \
                   "• Automatic OTPs 📍\n" \
@@ -458,7 +458,7 @@ def clean_ui_and_send_menu(chat_id, user_id, text=None, markup=None):
                   "5️⃣ Receive OTP & You're Done ✅</blockquote>\n\n" \
                   "▰▰▰▰▰▰▰▰▰▰▰▰▰▰\n\n" \
                   "◈ <b>OWNER :</b> @SpicyEryx\n" \
-                  "◈ <b>DEV :</b> OGGY\n" \
+                  "◈ <b>DEV :</b> ᯓ‌𓆰𝅃 𝚬 །⃪᱂ ꪗ ꪎ 𝁘 🇷🇺 𓆪ꪾ⇢\n" \
                   "◈ <b>VERSION :</b> 2.0\n" \
                   "▰▰▰▰▰▰▰▰▰▰▰▰▰▰"
         
@@ -483,7 +483,7 @@ def clean_ui_and_send_menu(chat_id, user_id, text=None, markup=None):
         try:
             sent_msg = bot.send_photo(
                 chat_id,
-                "https://files.catbox.moe/gfsb3f.png",
+                "https://files.catbox.moe/5yqm4f.jpg",
                 caption=text or caption,
                 parse_mode="HTML",
                 reply_markup=markup
@@ -1771,7 +1771,7 @@ def process_recharge_amount(msg):
         
         bot.send_photo(
             msg.chat.id,
-            "https://files.catbox.moe/a310jr.jpg",
+            "https://files.catbox.moe/xe2i5a.jpg",
             caption=caption,
             parse_mode="HTML",
             reply_markup=markup
@@ -2439,7 +2439,7 @@ def ask_ban_user(message):
                 user_id_to_ban,
                 "🚫 **Your Account Has Been Banned**\n\n"
                 "You have been banned from using this bot.\n"
-                "Contact admin @UROGGY if you believe this is a mistake."
+                "Contact admin @SpicyEryx if you believe this is a mistake."
             )
         except:
             pass
