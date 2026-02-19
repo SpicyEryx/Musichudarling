@@ -532,7 +532,7 @@ Click the button below to join, then press VERIFY ✅</blockquote>"""
         try:
             bot.send_photo(
                 user_id,
-                "https://files.catbox.moe/gfsb3f.png",
+                "https://files.catbox.moe/5yqm4f.jpg",
                 caption=caption,
                 parse_mode="HTML",
                 reply_markup=markup
